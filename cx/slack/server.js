@@ -3,12 +3,12 @@
  * Add your service key to the current folder.
  * Uncomment and fill in these variables.
  */
-// const slackSigningSecret = '...';
-// const slackToken = 'xoxb-...';
-// const projectId = 'my-project';
-// const locationId = 'global';
-// const agentId = 'my-agent';
-// const languageCode = 'en';
+const slackSigningSecret = '83567735b5a7a148cc14e2c84dff2134';
+const slackToken = 'xoxb-6741546788439-6757571211474-HLuPbavef3mVKFEKllQcPOmF';
+const projectId = 'sourceable-2';
+const locationId = 'us-central-1';
+const agentId = '9f51f365-7a3f-43af-b4ce-6c617b1bd72f';
+const languageCode = 'en';
 
 const structProtoToJson =
     require('../../botlib/proto_to_json.js').structProtoToJson;
